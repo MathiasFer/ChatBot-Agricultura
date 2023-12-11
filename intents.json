@@ -1,0 +1,79 @@
+{
+  "intents": [
+    {
+      "tag": "CultivoOrganico",
+      "patterns": ["Métodos de cultivo orgánico", "Agricultura sin pesticidas", "Cómo empezar con cultivo orgánico"],
+      "responses": ["El cultivo orgánico es una práctica sostenible. Aprende sobre métodos sin pesticidas para mejorar tu producción."]
+    },
+    {
+      "tag": "RiegoEficiente",
+      "patterns": ["Técnicas de riego eficiente", "Sistemas de riego para agricultura", "Cómo conservar agua en la agricultura"],
+      "responses": ["Optimiza el riego en tu cultivo. Descubre técnicas eficientes para conservar agua y mejorar la productividad."]
+    },
+    {
+      "tag": "ManejoPlagas",
+      "patterns": ["Control de plagas en agricultura", "Métodos naturales para combatir plagas", "Prevención de infestaciones"],
+      "responses": ["Protege tus cultivos contra plagas. Explora métodos naturales y estrategias para el control efectivo de plagas."]
+    },
+    {
+      "tag": "VariedadesCultivo",
+      "patterns": ["Selección de variedades de cultivo", "Mejores cultivos para tu región", "Variedades resistentes"],
+      "responses": ["Elige las mejores variedades para tu región. Considera cultivos resistentes y adaptables para maximizar tu producción."]
+    },
+    {
+      "tag": "FertilizacionNatural",
+      "patterns": ["Fertilización natural", "Abonos orgánicos para cultivos", "Cómo mejorar la fertilidad del suelo"],
+      "responses": ["Mejora la fertilidad del suelo de manera natural. Descubre opciones de abonos orgánicos para nutrir tus cultivos."]
+    },
+    {
+      "tag": "RotacionCultivos",
+      "patterns": ["Importancia de la rotación de cultivos", "Planificación de rotación", "Beneficios de cambiar cultivos"],
+      "responses": ["La rotación de cultivos es clave. Planifica cuidadosamente para optimizar la salud del suelo y prevenir problemas."]
+    },
+    {
+      "tag": "TecnologiaAgricola",
+      "patterns": ["Avances en tecnología agrícola", "Herramientas modernas para agricultura", "Automatización en el campo"],
+      "responses": ["La tecnología está transformando la agricultura. Explora herramientas y métodos modernos para mejorar tu producción."]
+    },
+    {
+      "tag": "GestionFinancieraAgricola",
+      "patterns": ["Gestión financiera en la agricultura", "Presupuesto para cultivos", "Cómo optimizar costos"],
+      "responses": ["Una buena gestión financiera es esencial. Aprende a elaborar presupuestos y optimizar costos para tu explotación agrícola."]
+    },
+    {
+      "tag": "CambioClimaticoAgricultura",
+      "patterns": ["Adaptación al cambio climático en agricultura", "Prácticas sostenibles frente al cambio climático", "Resiliencia en cultivos"],
+      "responses": ["El cambio climático afecta la agricultura. Descubre prácticas sostenibles y métodos para adaptar tus cultivos al cambio climático."]
+    },
+    {
+      "tag": "BuenasPracticasAgricolas",
+      "patterns": ["Buenas prácticas agrícolas", "Normas de seguridad en el campo", "Certificaciones agrícolas"],
+      "responses": ["Sigue buenas prácticas agrícolas. Aprende sobre normas de seguridad y certificaciones para garantizar la calidad de tus productos."]
+    },
+    {
+      "tag": "AgriculturaUrbana",
+      "patterns": ["Agricultura urbana", "Cultivo en espacios reducidos", "Huertos urbanos"],
+      "responses": ["La agricultura urbana es una opción viable. Descubre cómo cultivar en espacios reducidos y crear huertos urbanos sostenibles."]
+    },
+    {
+      "tag": "EnergiasRenovablesAgricultura",
+      "patterns": ["Energías renovables en la agricultura", "Uso de energía solar en el campo", "Sostenibilidad energética"],
+      "responses": ["Adopta energías renovables en tu explotación. Explora el uso de energía solar y otras opciones para lograr sostenibilidad energética."]
+    },
+    {
+      "tag": "CertificacionOrganica",
+      "patterns": ["Certificación orgánica", "Requisitos para certificación", "Beneficios de ser orgánico"],
+      "responses": ["La certificación orgánica agrega valor. Conoce los requisitos y beneficios de obtener la certificación para tu producción agrícola."]
+    },
+    {
+      "tag": "AgriculturaPrecision",
+      "patterns": ["Agricultura de precisión", "Tecnologías para la agricultura de precisión", "Monitoreo avanzado de cultivos"],
+      "responses": ["La agricultura de precisión optimiza la producción. Descubre tecnologías avanzadas para el monitoreo y gestión de cultivos de manera eficiente."]
+    },
+    {
+      "tag": "CosechaOptima",
+      "patterns": ["Consejos para una cosecha óptima", "Momento adecuado para la cosecha", "Técnicas de recolección eficientes"],
+      "responses": ["Logra una cosecha óptima con buenos métodos. Aprende sobre el momento adecuado y técnicas eficientes de recolección."]
+    }
+  ]
+}
