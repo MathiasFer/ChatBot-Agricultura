@@ -74,6 +74,578 @@
       "tag": "CosechaOptima",
       "patterns": ["Consejos para una cosecha óptima", "Momento adecuado para la cosecha", "Técnicas de recolección eficientes"],
       "responses": ["Logra una cosecha óptima con buenos métodos. Aprende sobre el momento adecuado y técnicas eficientes de recolección."]
+    },
+    {
+      "tag": "MoscaBlanca",
+      "patterns": ["Cómo controlar la mosca blanca", "Prevención de infestación de mosca blanca", "Tratamientos para mosca blanca"],
+      "responses": [
+        "La mosca blanca puede controlarse mediante la introducción de insectos depredadores como la mariquita.",
+        "Aplicar aceite de neem puede ayudar a reducir la población de mosca blanca de manera orgánica.",
+        "La rotación de cultivos y el uso de trampas amarillas son métodos efectivos de prevención."
+      ]
+    },
+    {
+      "tag": "Ácaros",
+      "patterns": ["Cómo eliminar ácaros en cultivos", "Control de ácaros en agricultura", "Prevención de infestación de ácaros"],
+      "responses": [
+        "Los ácaros pueden controlarse con insecticidas naturales como el aceite de ajo.",
+        "Mantén una humedad adecuada en el cultivo para prevenir la proliferación de ácaros.",
+        "La introducción de ácaros depredadores como Phytoseiulus persimilis puede ser una solución efectiva."
+      ]
+    },
+    {
+      "tag": "Orugas",
+      "patterns": ["Cómo lidiar con orugas en mis plantas", "Control de orugas en jardinería", "Prevención de daños por orugas"],
+      "responses": [
+        "Utiliza trampas de feromonas para monitorear y controlar la población de orugas.",
+        "La aplicación de bacillus thuringiensis (Bt) es un método orgánico eficaz contra las orugas.",
+        "Inspecciona regularmente las plantas y retira manualmente las orugas para evitar daños mayores."
+      ]
+    },
+    {
+      "tag": "CaracolesyChinches",
+      "patterns": ["Cómo deshacerse de caracoles en el jardín", "Control de chinches en cultivos", "Prevención de caracoles y chinches"],
+      "responses": [
+        "El uso de cerveza como cebo es una forma natural de controlar caracoles en el jardín.",
+        "La aplicación de diatomeas terrestres puede ser efectiva contra caracoles y chinches.",
+        "Fomenta la presencia de aves depredadoras para controlar poblaciones de caracoles y chinches."
+      ]
+    },
+    {
+      "tag": "ManejoPlagas",
+      "patterns": [
+        "Control de plagas en agricultura",
+        "Métodos naturales para combatir plagas",
+        "Prevención de infestaciones",
+        "Cómo eliminar plagas en mis cultivos",
+        "Control de insectos en la agricultura",
+        "Manejo ecológico de plagas"
+      ],
+      "responses": [
+        "Protege tus cultivos contra plagas. Explora métodos naturales y estrategias para el control efectivo de plagas.",
+        "Utiliza depredadores naturales para controlar plagas de manera ecológica.",
+        "La rotación de cultivos también ayuda a prevenir infestaciones de plagas.",
+        "Asegúrate de inspeccionar regularmente tus cultivos para detectar signos tempranos de plagas.",
+        "Considera el uso de trampas y feromonas para monitorear y controlar la población de plagas."
+      ]
+    },
+    {
+      "tag": "PrevencionPlagas",
+      "patterns": [
+        "Medidas preventivas contra plagas",
+        "Cómo evitar plagas en mis cultivos",
+        "Cercos para proteger cultivos",
+        "Uso de mallas antiinsectos",
+        "Barreras físicas contra plagas"
+      ],
+      "responses": [
+        "La prevención es clave. Implementa medidas como cercos y mallas antiinsectos para proteger tus cultivos.",
+        "Asegúrate de mantener limpio y ordenado el entorno alrededor de tus cultivos para reducir el refugio de plagas.",
+        "La diversificación de cultivos puede ayudar a prevenir la propagación de plagas específicas.",
+        "Considera el uso de plantas repelentes para alejar ciertos insectos y plagas.",
+        "Aplica prácticas de higiene adecuadas para evitar la introducción accidental de plagas en tu cultivo."
+      ]
+    },
+    {
+      "tag": "ProductosOrganicos",
+      "patterns": [
+        "Insecticidas orgánicos para cultivos",
+        "Control de plagas sin químicos",
+        "Productos naturales contra plagas",
+        "Aceites esenciales para repeler insectos",
+        "Tratamientos orgánicos antiplagas"
+      ],
+      "responses": [
+        "Opta por insecticidas orgánicos para controlar plagas sin dañar el medio ambiente.",
+        "El uso de aceites esenciales como citronela o neem puede ser eficaz contra ciertos insectos.",
+        "Explora opciones de tratamientos orgánicos a base de bacterias o hongos para controlar plagas de manera sostenible.",
+        "Considera el uso de trampas de feromonas como una alternativa no tóxica para el control de plagas.",
+        "Fomenta la presencia de insectos beneficiosos que actúen como depredadores naturales para controlar las plagas."
+      ]
+    },
+    {
+      "tag": "Glifosato",
+      "patterns": ["Información sobre glifosato", "Usos y riesgos del glifosato", "Alternativas al glifosato"],
+      "responses": [
+        "El glifosato es un herbicida ampliamente utilizado. Conoce sus usos y precauciones.",
+        "A pesar de su eficacia, el glifosato puede tener impactos ambientales. Considera alternativas más sostenibles.",
+        "Alternativas al glifosato incluyen métodos mecánicos, mulching y herbicidas orgánicos."
+      ]
+    },
+    {
+      "tag": "Clorpirifos",
+      "patterns": ["Información sobre clorpirifos", "Usos y peligros del clorpirifos", "Alternativas al clorpirifos"],
+      "responses": [
+        "El clorpirifos es un insecticida común, pero su uso plantea preocupaciones sobre la salud humana y ambiental.",
+        "Considera prácticas de manejo integrado de plagas como una alternativa al clorpirifos.",
+        "Existen insecticidas botánicos y biológicos que pueden ser efectivos sin los riesgos asociados al clorpirifos."
+      ]
+    },
+    {
+      "tag": "Imidacloprid",
+      "patterns": ["Información sobre imidacloprid", "Usos y efectos del imidacloprid", "Alternativas al imidacloprid"],
+      "responses": [
+        "El imidacloprid es un neonicotinoide ampliamente utilizado en insecticidas. Conoce sus implicaciones.",
+        "Debido a su impacto en las abejas, es importante considerar alternativas al imidacloprid.",
+        "Busca productos con ingredientes activos más seguros, como el aceite de neem, como alternativa al imidacloprid."
+      ]
+    },
+    {
+      "tag": "Paraquat",
+      "patterns": ["Información sobre paraquat", "Usos y riesgos del paraquat", "Alternativas al paraquat"],
+      "responses": [
+        "El paraquat es un herbicida no selectivo. Conoce sus usos y precauciones.",
+        "Debido a su toxicidad, se buscan alternativas más seguras al paraquat en la agricultura.",
+        "Practicas agrícolas sostenibles y el uso de herbicidas naturales son alternativas al paraquat."
+      ]
+    },
+     {
+      "tag": "RemediosCaserosPlagas",
+      "patterns": [
+        "Remedios caseros para controlar plagas",
+        "Cómo eliminar plagas de forma natural",
+        "Soluciones caseras contra insectos en plantas",
+        "Métodos naturales para proteger cultivos"
+      ],
+      "responses": [
+        "Existen varios remedios caseros para el control de plagas. ¿Qué tipo de plaga estás enfrentando?",
+        "El aceite de neem es un remedio casero eficaz para controlar una variedad de plagas en las plantas.",
+        "El ajo y el pimiento rojo son ingredientes comunes en soluciones caseras para repeler insectos en el jardín.",
+        "El jabón insecticida casero, mezclado con agua, puede ayudar a controlar plagas sin recurrir a productos químicos."
+      ]
+    },
+    {
+      "tag": "AjoRepelente",
+      "patterns": ["Cómo usar ajo como repelente de plagas", "Recetas de aerosol de ajo para plagas", "Ajo contra insectos en el jardín"],
+      "responses": [
+        "El ajo tiene propiedades repelentes naturales. Puedes hacer un aerosol de ajo mezclándolo con agua y rociándolo en las plantas.",
+        "La aplicación regular de ajo puede ayudar a mantener alejados a insectos no deseados en tu jardín.",
+        "Mezcla ajo, agua y aceite vegetal para crear un repelente natural que no dañará tus plantas."
+      ]
+    },
+    {
+      "tag": "AceiteNeem",
+      "patterns": ["Cómo usar aceite de neem contra plagas", "Mezcla de aceite de neem para control de insectos", "Aceite de neem como insecticida natural"],
+      "responses": [
+        "El aceite de neem es efectivo contra insectos y hongos. Mezcla unas gotas con agua y un poco de jabón para hacer un spray insecticida.",
+        "El aceite de neem actúa como insecticida y también fortalece las plantas. Úsalo con moderación para evitar daños.",
+        "Puedes aplicar aceite de neem de manera preventiva o cuando detectes signos tempranos de plagas en tus cultivos."
+      ]
+    },
+    {
+      "tag": "TrampasCaseras",
+      "patterns": ["Cómo hacer trampas caseras para plagas", "Trampas DIY para insectos en el jardín", "Métodos caseros para capturar plagas"],
+      "responses": [
+        "Las trampas caseras pueden ser efectivas para controlar poblaciones de plagas. Prueba con trampas de cerveza para caracoles.",
+        "Las trampas de feromonas son útiles para monitorear y reducir las poblaciones de insectos en tu jardín de manera natural.",
+        "Crea trampas pegajosas caseras con cartulina amarilla y aceite vegetal para capturar insectos voladores."
+      ]
+    },
+     {
+      "tag": "FertilizantesQuimicos",
+      "patterns": [
+        "Uso de fertilizantes químicos en agricultura",
+        "Ventajas de los fertilizantes químicos",
+        "Cómo aplicar fertilizantes químicos",
+        "Tipos de nutrientes en fertilizantes químicos",
+        "Beneficios de utilizar fertilizantes químicos",
+        "Fertilizantes químicos"
+      ],
+      "responses": [
+        "Los fertilizantes químicos son una forma eficaz de proporcionar nutrientes específicos a las plantas.",
+        "La aplicación de fertilizantes químicos puede aumentar la productividad y mejorar la calidad de los cultivos.",
+        "Es importante seguir las recomendaciones de aplicación para evitar posibles problemas de sobrealimentación o contaminación del suelo."
+      ]
+    },
+    {
+      "tag": "NitrogenoFertilizantes",
+      "patterns": ["Importancia del nitrógeno en fertilizantes", "Fertilizantes ricos en nitrógeno", "Cómo aplicar nitrógeno a las plantas", "Nitrógeno fertilizante", "Nitrógeno en agricultura"],
+      "responses": [
+        "El nitrógeno es esencial para el crecimiento de las plantas. Los fertilizantes ricos en nitrógeno son comunes en la agricultura moderna.",
+        "La urea y el nitrato de amonio son ejemplos de fertilizantes que proporcionan nitrógeno a las plantas de manera rápida y eficiente.",
+        "La aplicación adecuada de nitrógeno favorece el desarrollo de hojas verdes y el rendimiento de los cultivos."
+      ]
+    },
+    {
+      "tag": "FosforoFertilizantes",
+      "patterns": ["Importancia del fósforo en fertilizantes", "Fertilizantes ricos en fósforo", "Cómo aplicar fósforo a las plantas", "Fósforo fertilizante", "Fósforo en agricultura"],
+      "responses": [
+        "El fósforo es esencial para el desarrollo de raíces y la floración de las plantas. Los fertilizantes ricos en fósforo son cruciales para ciertos cultivos.",
+        "El superfosfato y el fosfato monoamónico son ejemplos comunes de fertilizantes que suministran fósforo a las plantas.",
+        "La aplicación de fósforo es especialmente importante en las etapas iniciales del crecimiento de las plantas."
+      ]
+    },
+    {
+      "tag": "PotasioFertilizantes",
+      "patterns": ["Importancia del potasio en fertilizantes", "Fertilizantes ricos en potasio", "Cómo aplicar potasio a las plantas", "Potasio fertilizante", "Potasio en agricultura"],
+      "responses": [
+        "El potasio es esencial para la resistencia de las plantas al estrés y la regulación del agua. Los fertilizantes ricos en potasio son fundamentales.",
+        "La cloruro de potasio y el sulfato de potasio son ejemplos comunes de fertilizantes que proporcionan potasio a las plantas.",
+        "El potasio favorece la formación de frutas y la resistencia de las plantas a enfermedades y condiciones adversas."
+      ]
+    },
+    {
+      "tag": "FertilizantesOrganicos",
+      "patterns": [
+        "Uso de fertilizantes orgánicos en agricultura",
+        "Ventajas de los fertilizantes orgánicos",
+        "Cómo aplicar fertilizantes orgánicos",
+        "Tipos de nutrientes en fertilizantes orgánicos",
+        "Beneficios de utilizar fertilizantes orgánicos",
+        "Fertilizantes naturales"
+      ],
+      "responses": [
+        "Los fertilizantes orgánicos son una opción sostenible y respetuosa con el medio ambiente para enriquecer el suelo y mejorar el rendimiento de los cultivos.",
+        "La aplicación de fertilizantes orgánicos promueve la salud del suelo, estimula la actividad microbiana y proporciona nutrientes de manera equilibrada.",
+        "Al utilizar materiales orgánicos como compost, estiércol y abonos verdes, puedes aumentar la fertilidad del suelo de manera natural."
+      ]
+    },
+    {
+      "tag": "Compost",
+      "patterns": ["Cómo hacer compost", "Usos y beneficios del compost en agricultura", "Compostaje para fertilizar el suelo"],
+      "responses": [
+        "El compost es un fertilizante orgánico valioso que puedes producir fácilmente a partir de materiales orgánicos como restos de cocina y desechos de jardín.",
+        "Al agregar compost al suelo, mejoras su estructura, retención de agua y capacidad para retener nutrientes.",
+        "El compostaje es una práctica sencilla que contribuye a la sostenibilidad y al ciclo natural de nutrientes en la agricultura."
+      ]
+    },
+    {
+      "tag": "Estiercol",
+      "patterns": ["Uso de estiércol como fertilizante", "Tipos de estiércol para la agricultura", "Aplicación de estiércol en cultivos"],
+      "responses": [
+        "El estiércol es un fertilizante orgánico rico en nutrientes esenciales como nitrógeno, fósforo y potasio.",
+        "Diferentes tipos de estiércol, como el de vaca, caballo o gallina, aportan distintos nutrientes al suelo.",
+        "La aplicación adecuada de estiércol mejora la estructura del suelo y promueve un ambiente favorable para la actividad microbiana beneficiosa."
+      ]
+    },
+    {
+      "tag": "AbonosVerdes",
+      "patterns": ["Beneficios de los abonos verdes", "Cómo utilizar abonos verdes en la agricultura", "Mejores plantas como abonos verdes"],
+      "responses": [
+        "Los abonos verdes son cultivos específicos que se cultivan y se incorporan al suelo para mejorar su fertilidad y estructura.",
+        "Plantas como la alfalfa, el trébol y la mostaza son excelentes opciones como abonos verdes debido a su capacidad para fijar nitrógeno y mejorar la biodiversidad del suelo.",
+        "La rotación de cultivos con abonos verdes contribuye a mantener la salud del suelo y reduce la necesidad de fertilizantes químicos."
+      ]
+    },
+    {
+      "tag": "CuidadoTomates",
+      "patterns": [
+        "Guía de cuidado de tomates",
+        "Cómo cultivar tomates",
+        "Cuidados necesarios para los tomates",
+        "Consejos para el cultivo de tomates"
+      ],
+      "responses": [
+        "Los tomates son plantas que requieren cuidados específicos. Asegúrate de proporcionarles un buen soporte para su crecimiento vertical.",
+        "Mantén un sistema regular de riego para evitar problemas como el rajado de los tomates.",
+        "Fertiliza de manera equilibrada y controla posibles plagas para obtener una cosecha saludable de tomates."
+      ]
+    },
+    {
+      "tag": "CuidadoZanahorias",
+      "patterns": [
+        "Guía de cuidado de zanahorias",
+        "Cómo cultivar zanahorias",
+        "Cuidados necesarios para las zanahorias",
+        "Consejos para el cultivo de zanahorias"
+      ],
+      "responses": [
+        "Las zanahorias prosperan en suelos sueltos y bien drenados. Evita suelos rocosos que puedan limitar su desarrollo.",
+        "Siembra las semillas de zanahoria en surcos poco profundos y mantenlas bien regadas para una germinación exitosa.",
+        "El adelgazamiento regular de las plántulas es esencial para permitir que las zanahorias se desarrollen completamente."
+      ]
+    },
+    {
+      "tag": "CuidadoNaranjas",
+      "patterns": [
+        "Guía de cuidado de naranjas",
+        "Cómo cultivar naranjas",
+        "Cuidados necesarios para los naranjos",
+        "Consejos para el cultivo de naranjas"
+      ],
+      "responses": [
+        "Los naranjos requieren un clima cálido y bien drenado. Protege las plantas de las heladas en climas fríos.",
+        "Proporciona un riego regular, especialmente durante la temporada de floración y desarrollo de frutos.",
+        "Fertiliza con un abono equilibrado y controla las plagas para garantizar frutas sanas y sabrosas."
+      ]
+    },
+    {
+      "tag": "CuidadoAguacates",
+      "patterns": [
+        "Guía de cuidado de aguacates",
+        "Cómo cultivar aguacates",
+        "Cuidados necesarios para los aguacates",
+        "Consejos para el cultivo de aguacates"
+      ],
+      "responses": [
+        "Los aguacates prosperan en climas cálidos y bien drenados. Protege las plantas jóvenes de las heladas.",
+        "Mantén el suelo húmedo, pero evita el encharcamiento. El riego regular es crucial, especialmente durante la sequía.",
+        "Fertiliza con un abono balanceado y proporciona un buen soporte para las ramas, ya que los aguacates pueden tener un crecimiento arbóreo."
+      ]
+    },
+    {
+      "tag": "CuidadoFresas",
+      "patterns": [
+        "Guía de cuidado de fresas",
+        "Cómo cultivar fresas",
+        "Cuidados necesarios para las fresas",
+        "Consejos para el cultivo de fresas"
+      ],
+      "responses": [
+        "Las fresas prosperan en suelos bien drenados y ricos en materia orgánica. Plántalas en camas elevadas para un buen drenaje.",
+        "Mantén las fresas bien regadas y evita mojar las hojas para prevenir enfermedades.",
+        "Fertiliza con un fertilizante equilibrado y controla las malas hierbas para obtener fresas sanas y sabrosas."
+      ]
+    },
+    {
+      "tag": "CuidadoCebollas",
+      "patterns": [
+        "Guía de cuidado de cebollas",
+        "Cómo cultivar cebollas",
+        "Cuidados necesarios para las cebollas",
+        "Consejos para el cultivo de cebollas"
+      ],
+      "responses": [
+        "Las cebollas prefieren suelos bien drenados y ricos en materia orgánica. Asegúrate de plantarlas en un lugar soleado.",
+        "Mantén un riego regular, especialmente durante períodos secos. Las cebollas necesitan agua para su desarrollo.",
+        "Fertiliza con compost y evita el exceso de nitrógeno, ya que puede estimular el crecimiento de hojas en lugar de bulbos."
+      ]
+    },
+    {
+      "tag": "CuidadoLechugas",
+      "patterns": [
+        "Guía de cuidado de lechugas",
+        "Cómo cultivar lechugas",
+        "Cuidados necesarios para las lechugas",
+        "Consejos para el cultivo de lechugas"
+      ],
+      "responses": [
+        "Las lechugas prefieren suelos sueltos y bien drenados. Plántalas en un lugar con sombra parcial en climas cálidos.",
+        "Mantén un riego constante para evitar que las lechugas se vuelvan amargas. La falta de agua puede causar estrés en las plantas.",
+        "Fertiliza con un fertilizante equilibrado y cosecha las hojas externas para promover un crecimiento continuo."
+      ]
+    },
+    {
+      "tag": "CuidadoManzanas",
+      "patterns": [
+        "Guía de cuidado de manzanas",
+        "Cómo cultivar manzanas",
+        "Cuidados necesarios para los manzanos",
+        "Consejos para el cultivo de manzanas"
+      ],
+      "responses": [
+        "Los manzanos requieren un lugar soleado y bien ventilado para prevenir enfermedades fúngicas.",
+        "Mantén el suelo húmedo pero no encharcado. Un riego regular es esencial, especialmente durante la sequía.",
+        "Podar los manzanos regularmente y aplicar fungicidas de manera preventiva ayudará a mantener la salud de los árboles y las frutas."
+      ]
+    },
+     {
+      "tag": "ClimaCostaEcuador",
+      "patterns": [
+        "Clima en la costa de Ecuador",
+        "Temperatura en la costa ecuatoriana",
+        "Cultivos adaptados a la costa"
+      ],
+      "responses": [
+        "La costa de Ecuador tiene un clima tropical y húmedo, con temperaturas cálidas durante todo el año.",
+        "En la costa, se cultivan diversos productos como plátanos, cacao, arroz y mariscos debido a las condiciones climáticas favorables."
+      ]
+    },
+    {
+      "tag": "ClimaSierraEcuador",
+      "patterns": [
+        "Clima en la sierra de Ecuador",
+        "Temperatura en la sierra ecuatoriana",
+        "Cultivos adaptados a la sierra"
+      ],
+      "responses": [
+        "La sierra de Ecuador tiene un clima variado, con temperaturas más frescas debido a la altitud.",
+        "En la sierra, se cultivan cultivos como papas, maíz, quinua y flores debido a las condiciones de altitud y clima más fresco."
+      ]
+    },
+    {
+      "tag": "ClimaAmazoniaEcuador",
+      "patterns": [
+        "Clima en la amazonia de Ecuador",
+        "Temperatura en la amazonia ecuatoriana",
+        "Cultivos adaptados a la amazonia"
+      ],
+      "responses": [
+        "La amazonia de Ecuador tiene un clima cálido y húmedo durante todo el año, con abundantes lluvias.",
+        "En la amazonia, se cultivan productos como frutas tropicales, cacao, café y plantas medicinales debido a las condiciones de selva tropical."
+      ]
+    },
+    {
+      "tag": "AltitudSierraEcuador",
+      "patterns": [
+        "Altitud en la sierra de Ecuador",
+        "Elevación en la sierra ecuatoriana",
+        "Cómo afecta la altitud en la sierra a los cultivos"
+      ],
+      "responses": [
+        "La sierra ecuatoriana se caracteriza por su altitud, que varía significativamente. Esta altitud influye en la selección de cultivos adaptados a diferentes zonas altitudinales.",
+        "Las áreas de mayor altitud en la sierra suelen ser adecuadas para cultivos como papa y quinua, mientras que a altitudes más bajas se cultivan cereales y vegetales diversos."
+      ]
+    },
+    {
+      "tag": "CultivosEspecificosEcuador",
+      "patterns": [
+        "Cultivos específicos de Ecuador",
+        "Qué se cultiva en las diferentes regiones de Ecuador",
+        "Clima y cultivos en Ecuador"
+      ],
+      "responses": [
+        "Ecuador cuenta con una diversidad de cultivos debido a sus distintas regiones geográficas. En la costa, se encuentran productos como plátanos y cacao. En la sierra, destacan papas y quinua. En la amazonia, se cultivan frutas tropicales y productos como cacao y café."
+      ]
+    },
+     {
+      "tag": "PlantasCostaEcuador",
+      "patterns": [
+        "Plantas para sembrar en la costa de Ecuador",
+        "Cultivos adaptados a la costa ecuatoriana",
+        "Qué cultivar en la región costera"
+      ],
+      "responses": [
+        "En la costa de Ecuador, puedes sembrar cultivos como plátanos, cacao, arroz, café y frutas tropicales debido a las condiciones climáticas favorables y la proximidad al mar."
+      ]
+    },
+    {
+      "tag": "PlantasSierraEcuador",
+      "patterns": [
+        "Plantas para sembrar en la sierra de Ecuador",
+        "Cultivos adaptados a la sierra ecuatoriana",
+        "Qué cultivar en la región de la sierra"
+      ],
+      "responses": [
+        "En la sierra de Ecuador, puedes sembrar cultivos como papas, maíz, quinua, habas, cebada y flores de altura debido a las condiciones de altitud y clima fresco."
+      ]
+    },
+    {
+      "tag": "PlantasAmazoniaEcuador",
+      "patterns": [
+        "Plantas para sembrar en la amazonia de Ecuador",
+        "Cultivos adaptados a la amazonia ecuatoriana",
+        "Qué cultivar en la región amazónica"
+      ],
+      "responses": [
+        "En la amazonia de Ecuador, puedes sembrar cultivos como frutas tropicales, cacao, café, plátanos y plantas medicinales debido al clima cálido y las lluvias abundantes."
+      ]
+    },
+    {
+      "tag": "PlantasAltitudSierraEcuador",
+      "patterns": [
+        "Plantas para sembrar a diferentes altitudes en la sierra de Ecuador",
+        "Cultivos según la altitud en la sierra ecuatoriana",
+        "Qué sembrar a diferentes elevaciones en la sierra"
+      ],
+      "responses": [
+        "A diferentes altitudes en la sierra de Ecuador, puedes sembrar cultivos específicos. En las zonas más altas, cultivos como papas y quinua prosperan, mientras que a altitudes más bajas, puedes cultivar cereales y vegetales diversos."
+      ]
+    }, {
+      "tag": "PrevenirErosionSuelo",
+      "patterns": ["Prevención de la erosión del suelo", "Cómo evitar la erosión", "Técnicas contra la erosión del suelo"],
+      "responses": ["Descubre prácticas efectivas para prevenir la erosión del suelo y mantener la salud de tus cultivos."]
+    },
+    {
+      "tag": "MejorarSaludSuelo",
+      "patterns": ["Cómo mejorar la salud del suelo", "Enriquecimiento del suelo", "Prácticas para suelos saludables"],
+      "responses": ["Aprende estrategias prácticas para mejorar la salud de tus suelos y optimizar el crecimiento de tus cultivos."]
+    },
+    {
+      "tag": "CoberturaVegetalSuelo",
+      "patterns": ["Importancia de la cobertura vegetal en el suelo", "Beneficios de la cobertura vegetal", "Cómo implementar cobertura vegetal"],
+      "responses": ["Explora la importancia de la cobertura vegetal en la agricultura y aprende a implementarla para conservar la calidad del suelo."]
+    },
+    {
+      "tag": "RotacionCultivosSuelo",
+      "patterns": ["Beneficios de la rotación de cultivos en el suelo", "Cómo planificar rotación de cultivos", "Estrategias de rotación de cultivos"],
+      "responses": ["Comprende los beneficios de la rotación de cultivos para la salud del suelo y adopta estrategias efectivas para su implementación."]
+    },
+    {
+      "tag": "AbonosOrganicosSuelo",
+      "patterns": ["Uso de abonos orgánicos para mejorar el suelo", "Beneficios de abonos orgánicos", "Cómo aplicar abonos al suelo"],
+      "responses": ["Descubre cómo los abonos orgánicos pueden enriquecer tu suelo y proporcionar nutrientes esenciales para tus cultivos."]
+    }
+  ]
+}
+Sistemas de Riego y Drenaje en la Agricultura:
+
+json
+Copy code
+{
+  "intents": [
+    {
+      "tag": "RiegoEficienteCultivos",
+      "patterns": ["Técnicas de riego eficiente para cultivos", "Optimización del riego", "Mejoras en sistemas de riego"],
+      "responses": ["Optimiza el rendimiento de tus cultivos con técnicas avanzadas de riego eficiente y mejoras en los sistemas de riego."]
+    },
+    {
+      "tag": "DrenajeAgricola",
+      "patterns": ["Importancia del drenaje en la agricultura", "Sistemas de drenaje eficientes", "Cómo evitar problemas de drenaje"],
+      "responses": ["Comprende la importancia del drenaje agrícola y aprende a implementar sistemas eficientes para evitar problemas en tus cultivos."]
+    },
+    {
+      "tag": "PlanificacionRiegoDrenaje",
+      "patterns": ["Planificación del riego y drenaje en la agricultura", "Cómo planificar sistemas de riego y drenaje", "Estrategias de planificación hídrica"],
+      "responses": ["Aprende a planificar sistemas efectivos de riego y drenaje en la agricultura, considerando las necesidades hídricas de tus cultivos."]
+    },
+    {
+      "tag": "RiegoGoteo",
+      "patterns": ["Ventajas del riego por goteo", "Implementación de sistemas de riego por goteo", "Eficiencia del riego goteo"],
+      "responses": ["Explora las ventajas del riego por goteo y descubre cómo implementar sistemas eficientes para maximizar la eficiencia hídrica."]
+    },
+    {
+      "tag": "ManejoAguaAgricola",
+      "patterns": ["Manejo eficiente del agua en la agricultura", "Prácticas sostenibles de gestión del agua", "Técnicas para ahorrar agua"],
+      "responses": ["Adopta prácticas de manejo eficiente del agua en la agricultura y aprende técnicas para ahorrar este recurso vital."]
+    },{
+      "tag": "ReciclajeResiduosAgricolas",
+      "patterns": ["Reciclaje de residuos agrícolas", "Cómo reciclar desechos de la agricultura", "Beneficios del reciclaje agrícola"],
+      "responses": ["Descubre prácticas de reciclaje efectivas para gestionar los residuos agrícolas y los beneficios asociados a esta práctica sostenible."]
+    },
+    {
+      "tag": "CompostajeAgricola",
+      "patterns": ["Compostaje de residuos agrícolas", "Cómo hacer compost agrícola", "Beneficios del compostaje"],
+      "responses": ["Aprende a realizar compostaje con residuos agrícolas y comprende los beneficios ambientales y agronómicos de esta práctica."]
+    },
+    {
+      "tag": "BiorremediacionAgricola",
+      "patterns": ["Biorremediación de residuos agrícolas", "Técnicas de biorremediación en la agricultura", "Aplicaciones de la biorremediación"],
+      "responses": ["Explora las técnicas de biorremediación para gestionar residuos agrícolas y sus aplicaciones en la mejora de la calidad del suelo."]
+    },
+    {
+      "tag": "EnergiaRenovableResiduos",
+      "patterns": ["Generación de energía renovable a partir de residuos agrícolas", "Cómo aprovechar residuos para energía", "Beneficios de la energía renovable agrícola"],
+      "responses": ["Descubre cómo convertir residuos agrícolas en fuentes de energía renovable y los beneficios asociados a esta práctica sostenible."]
+    },
+    {
+      "tag": "GestionSostenibleResiduos",
+      "patterns": ["Gestión sostenible de residuos agrícolas", "Principios de gestión ambiental en la agricultura", "Cómo implementar prácticas sostenibles"],
+      "responses": ["Aprende principios de gestión sostenible de residuos agrícolas y cómo implementar prácticas que minimicen el impacto ambiental de tu explotación."]
+    },{
+      "tag": "RiegoEficienteCultivos",
+      "patterns": ["Técnicas de riego eficiente para cultivos", "Optimización del riego", "Mejoras en sistemas de riego"],
+      "responses": ["Optimiza el rendimiento de tus cultivos con técnicas avanzadas de riego eficiente y mejoras en los sistemas de riego."]
+    },
+    {
+      "tag": "DrenajeAgricola",
+      "patterns": ["Importancia del drenaje en la agricultura", "Sistemas de drenaje eficientes", "Cómo evitar problemas de drenaje"],
+      "responses": ["Comprende la importancia del drenaje agrícola y aprende a implementar sistemas eficientes para evitar problemas en tus cultivos."]
+    },
+    {
+      "tag": "PlanificacionRiegoDrenaje",
+      "patterns": ["Planificación del riego y drenaje en la agricultura", "Cómo planificar sistemas de riego y drenaje", "Estrategias de planificación hídrica"],
+      "responses": ["Aprende a planificar sistemas efectivos de riego y drenaje en la agricultura, considerando las necesidades hídricas de tus cultivos."]
+    },
+    {
+      "tag": "RiegoGoteo",
+      "patterns": ["Ventajas del riego por goteo", "Implementación de sistemas de riego por goteo", "Eficiencia del riego goteo"],
+      "responses": ["Explora las ventajas del riego por goteo y descubre cómo implementar sistemas eficientes para maximizar la eficiencia hídrica."]
+    },
+    {
+      "tag": "ManejoAguaAgricola",
+      "patterns": ["Manejo eficiente del agua en la agricultura", "Prácticas sostenibles de gestión del agua", "Técnicas para ahorrar agua"],
+      "responses": ["Adopta prácticas de manejo eficiente del agua en la agricultura y aprende técnicas para ahorrar este recurso vital."]
     }
   ]
 }
